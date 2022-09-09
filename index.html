@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto X-MEN Slider - MapaDev Week</title>
+
+    <link rel="shortcut icon" href="src/imagens/logoxmen.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2? family= Roupa & display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="src/css/reset.css">
+
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+<img src="src/imagens/logoxmen.png" alt="logoxmen" class="xmen"/>
+<h1 class="titulo">X-MEN</h1>
+    </header>
+
+    <main class="xmen-slider">
+<button class="btn-seta btn-voltar" id="btn-voltar">
+    <img src="src/imagens/seta.png" alt="seta voltar" />
+</button>
+
+<ul class="lista-herois">
+<li class="cartao selecionado fundo-1">
+    <div class="informacoes">
+        <h2 class="nome">Wolverine</h2>
+        <p class="vida">HP 574</p>
+    </div>
+
+    <div class="container-imagem">
+        <img src="src/imagens/Wolverine.png" alt="Wolverine" class="imagem-xmen"/>
+    </div>
+
+ <div class="descricao">
+    <h3 class="titulo">Descrição</h3>
+    <p class="texto">O mutante possui Força Sobre-humana (graças ao seu esqueleto de Adamantium); Velocidade Sobre-humana, Resistência Sobre-humana (por conta do fator de cura); Durabilidade Sobre-humana; Reflexos e agilidade Sobre-humana.</p>
+</div>    
+</li>
+
+<li class="cartao fundo-2">
+    <div class="informacoes">
+        <h2 class="nome">Professor Xavier</h2>
+        <p class="vida">HP 890</p>
+    </div>
+
+   <div class="container-imagem">
+        <img src="src/imagens/ProfessorXavier.png" alt="ProfessorXavier" class="imagem-xmen"/>
+   </div>
+
+   <div class="descricao">
+    <h3 class="titulo">Descrição</h3>
+    <p class="texto">Charles Xavier é um mutante com a habilidade de ler mentes e projetar seu próprio pensamento na mente de outros. Mentor e fundador dos X-Men, foi o primeiro a tomar como missão de vida o sonho de "convivência pacífica entre humanos e mutantes", sonho que tem influenciado quase todos os heróis mutantes.</p>
+   </div>    
+</li>
+
+<li class="cartao fundo-3">
+    <div class="informacoes">
+        <h2 class="nome">Fênix Negra</h2>
+        <p class="vida">HP 1000</p>
+    </div>
+
+    <div class="container-imagem">
+        <img src="src/imagens/JeanGrey.png" alt="JeanGrey" class="imagem-xmen"/>
+    </div>
+
+ <div class="descricao">
+    <h3 class="titulo">Descrição</h3>
+    <p class="texto">Absorção de energia: Ela pode absorver, manipular e controlar totalmente qualquer tipo de energia, como as explosões ópticas de cor vermelho rubi do Ciclope ou toda a energia de uma estrela, buraco negro ou mesmo uma galáxia inteira.</p>
+   </div>    
+ </li> 
+</ul>
+
+<button class="btn-seta" id="btn-avancar">
+    <img src="src/imagens/seta.png" alt="seta avancar" />
+</button>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
